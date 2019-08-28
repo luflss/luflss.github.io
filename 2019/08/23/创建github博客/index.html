@@ -15,18 +15,18 @@
 <meta property="og:site_name" content="luflss博客站">
 <meta property="og:description" content="记录一下创建github博客的过程，以及使用hexo更新博客准备工作检查是否安装git 1git --version  检查是否安装nodejs 1node -v  没有的话下载git 和 nodejs 如果没有安装 下载安装git和nodejs 搭建一个github博客1.创建仓库 创建一个github账号 创建一个自己 账号名.github.io的仓库名，账号名为你申请的github的账号，类">
 <meta property="og:locale" content="简体中文">
-<meta property="og:image" content="http://yoursite.com/2019/08/23/assets/img/c_cr.png">
+<meta property="og:image" content="http://yoursite.com/assets/img/c_cr.png">
 <meta property="og:image" content="http://yoursite.com/assets/img/c_setting.png">
-<meta property="og:image" content="http://yoursite.com/2019/08/23/assets/img/c_sp.png">
-<meta property="og:image" content="http://yoursite.com/2019/08/23/assets/img/sshkey_1.png">
-<meta property="og:image" content="http://yoursite.com/2019/08/23/assets/img/sshkey_2.png">
-<meta property="og:image" content="http://yoursite.com/2019/08/23/assets/img/sshkey_3.png">
-<meta property="og:image" content="http://yoursite.com/2019/08/23/assets/img/sshkey_4.png">
-<meta property="og:updated_time" content="2019-08-28T08:29:19.942Z">
+<meta property="og:image" content="http://yoursite.com/assets/img/c_sp.png">
+<meta property="og:image" content="http://yoursite.com/assets/img/sshkey_1.png">
+<meta property="og:image" content="http://yoursite.com/assets/img/sshkey_2.png">
+<meta property="og:image" content="http://yoursite.com/assets/img/sshkey_3.png">
+<meta property="og:image" content="http://yoursite.com/assets/img/sshkey_4.png">
+<meta property="og:updated_time" content="2019-08-28T08:31:21.005Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="创建github博客+hexo">
 <meta name="twitter:description" content="记录一下创建github博客的过程，以及使用hexo更新博客准备工作检查是否安装git 1git --version  检查是否安装nodejs 1node -v  没有的话下载git 和 nodejs 如果没有安装 下载安装git和nodejs 搭建一个github博客1.创建仓库 创建一个github账号 创建一个自己 账号名.github.io的仓库名，账号名为你申请的github的账号，类">
-<meta name="twitter:image" content="http://yoursite.com/2019/08/23/assets/img/c_cr.png">
+<meta name="twitter:image" content="http://yoursite.com/assets/img/c_cr.png">
   
     <link rel="alternative" href="/atom.xml" title="luflss博客站" type="application/atom+xml">
   
@@ -174,9 +174,9 @@
 <p>如果没有安装 下载安装git和nodejs</p>
 <h2 id="搭建一个github博客"><a href="#搭建一个github博客" class="headerlink" title="搭建一个github博客"></a>搭建一个github博客</h2><h3 id="1-创建仓库"><a href="#1-创建仓库" class="headerlink" title="1.创建仓库"></a>1.创建仓库</h3><ul>
 <li>创建一个github账号</li>
-<li>创建一个自己 账号名.github.io的仓库名，账号名为你申请的github的账号，类如 luflss.github.io  luflss就是我的github的账号名。<br><img src="../assets/img/c_cr.png" alt="创建仓库"></li>
+<li>创建一个自己 账号名.github.io的仓库名，账号名为你申请的github的账号，类如 luflss.github.io  luflss就是我的github的账号名。<br><img src="/assets/img/c_cr.png" alt="创建仓库"></li>
 </ul>
-<h3 id="开启Github-Pages"><a href="#开启Github-Pages" class="headerlink" title="开启Github Pages"></a>开启Github Pages</h3><p><img src="/assets/img/c_setting.png" alt="设置Github Pages"><br><img src="../assets/img/c_sp.png" alt="设置Github Pages"></p>
+<h3 id="开启Github-Pages"><a href="#开启Github-Pages" class="headerlink" title="开启Github Pages"></a>开启Github Pages</h3><p><img src="/assets/img/c_setting.png" alt="设置Github Pages"><br><img src="/assets/img/c_sp.png" alt="设置Github Pages"></p>
 <p>现在像你的仓库中提交一个index.html就可以通过 http://用户名.github.io 访问你的博客了  当然你也可以在设置GIthub Pages时候选择一个主题</p>
 <h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><blockquote>
 <p>npm install hexo-cli -g<br>hexo init #初始化网站<br>npm install<br>hexo g #生成或 hexo generate<br>hexo s #启动本地服务器 或者 hexo server,这一步之后就可以通过<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>  查看了<br>详细命令请参考Hexo文档<br>创建一篇文章<br>hexo new “文章名” #新建文章<br>hexo new page “页面名” #新建页面   </p>
@@ -193,7 +193,7 @@
 <p>以下命令均是在Git bash里输入<br>cd ~/.ssh<br>ls<br>ssh-keygen -t rsa -C “邮箱地址”<br>生成新的key文件,邮箱地址填你的Github地址<br>Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):&lt;回车就好&gt;<br>接下来会让你输入密码<br>之后就可以看到成功的界面。</p>
 </blockquote>
 </li>
-<li><p>添加SSH Key 到Github<br>添加步骤如下：<br><img src="../assets/img/sshkey_1.png" alt="点击设置"><br><img src="../assets/img/sshkey_2.png" alt="添加ssh key"><br><img src="../assets/img/sshkey_3.png" alt="复制sshkey中内容"><br><img src="../assets/img/sshkey_4.png" alt="创建ssh key"></p>
+<li><p>添加SSH Key 到Github<br>添加步骤如下：<br><img src="/assets/img/sshkey_1.png" alt="点击设置"><br><img src="/assets/img/sshkey_2.png" alt="添加ssh key"><br><img src="/assets/img/sshkey_3.png" alt="复制sshkey中内容"><br><img src="/assets/img/sshkey_4.png" alt="创建ssh key"></p>
 </li>
 </ul>
 <p>OK 到这里就这只好了，可以通过下边命令测试一下：</p>
